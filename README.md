@@ -6,8 +6,9 @@ Features
 - open modal to add/edit user
 - add new user, edit user, delete user while maintaining ordering
 - lazy render new users on scroll
+- responsive layout
 
-Used immutable.js List to store and manipulate user data for better performance. The data is rendered by 15 users lazily. I've used react-infinite-scroll library to manage requesting new data chunks on scroll.
+Used Immutable.js List to store and manipulate user data for better performance. The data is rendered by 15 users lazily. I've used react-infinite-scroll library to manage requesting new data chunks on scroll.
 Used React.memo on presentational components to only re-render data that is changed.
 
 ## Live Demo
@@ -72,5 +73,5 @@ $ npm run test
 
 ## Acknowledgments
 
-- [immutable.js](https://github.com/nfl/react-helmet)
-- [react-infinite-scroll-component](https://fontawesome.com/)
+- [Immutable.js](https://immutable-js.github.io/immutable-js/)
+- [react-infinite-scroll-component](https://github.com/ankeetmaini/react-infinite-scroll-componen)

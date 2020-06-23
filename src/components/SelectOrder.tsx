@@ -20,11 +20,24 @@ const Label = styled.span`
   margin-right: 15px;
 `;
 
+const SelectCont = styled.div`
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 350px) {
+    flex-direction: column;
+
+    > select {
+      margin-top: 20px;
+    }
+  }
+`;
+
 export default function Order() {
   const dispatch = useDispatch();
 
   return (
-    <div>
+    <SelectCont>
       <Label>Order by:</Label>
       <Select
         name="orderby"
@@ -37,6 +50,6 @@ export default function Order() {
         <option value="age">Age</option>
         <option value="connectedUsers">Connected users</option>
       </Select>
-    </div>
+    </SelectCont>
   );
 }

@@ -24,6 +24,14 @@ const Card = styled.div`
   padding: 10px;
   margin: 20px 0;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    width: 49%;
+  }
+
+  @media (max-width: 490px) {
+    width: 100%;
+  }
 `;
 
 const Main = styled.div`

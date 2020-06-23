@@ -12,7 +12,7 @@ import avatar from '../assets/avatar.svg';
 import Button from './common/Button';
 import { User } from '../reducers/users';
 
-const modalRoot = document.getElementById('modal');
+const modalRoot = document.querySelector('#modal');
 
 interface ModalProps {
   user: User | null;
