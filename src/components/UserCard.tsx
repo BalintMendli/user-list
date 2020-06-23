@@ -131,9 +131,9 @@ const NameComp = React.memo(({ name }: { name: string }) => {
 
 const SurnameComp = React.memo(({ surname }: { surname: string }) => {
   return (
-    <Name>
-      <B>Name:</B> <I>{surname}</I>
-    </Name>
+    <Surname>
+      <B>Surname:</B> <I>{surname}</I>
+    </Surname>
   );
 });
 
