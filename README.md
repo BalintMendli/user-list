@@ -12,7 +12,7 @@ Used React.memo on presentational components to only re-render data that is chan
 
 ## Live Demo
 
-[Link](https://rawcdn.githack.com/zenott/user-list/748fd9f9a09c100a69c6878977f6c902041152e4/dist/index.html)
+[Link](https://raw.githack.com/zenott/user-list/master/dist/index.html)
 
 ## Built With
 
